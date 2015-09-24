@@ -5,7 +5,7 @@ interface Nose {
 }
 
 abstract class Picasso implements Nose {
-	/** **/
+	
 		return 7;
 	}
 }
