@@ -1,20 +1,24 @@
 package kr.ac.kookmin.shape;
 
 public class Rectangle extends Shape{
+	int w, h;
 	
-	int h;
-	int w;
+	public Rectangle(Point center, int w, int h){
+		super(center);
+		this.w = w;
+		this.h = h;
+	}
 	
 	public Rectangle getBounds() {
 		return this;
 	}
 	
 	public int getHeight() {
-		return h;
+		return this.h;
 	}
 	
 	public int getWidth() {
-		return w;
+		return this.w;
 	}
 	
 	@Override
@@ -26,4 +30,3 @@ public class Rectangle extends Shape{
 		return "Rectangle";
 	}
 }
-
