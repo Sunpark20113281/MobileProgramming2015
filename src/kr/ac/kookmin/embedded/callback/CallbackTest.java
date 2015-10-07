@@ -1,4 +1,4 @@
-package kr.ac.embedded.kookmin.callback;
+package kr.ac.kookmin.embedded.callback;
 
 public class CallbackTest implements OnMaxNumberCb {
 
@@ -24,6 +24,7 @@ public class CallbackTest implements OnMaxNumberCb {
 	public void onMaxNumber(int number, int exceed) {
 		// TODO Auto-generated method stub
 		// 구현하시오 //
+		System.out.println("Current sum is " + number + " and exceeds " + exceed );
 	}
 	
 
