@@ -22,7 +22,7 @@ class Stack<T>{
 	}
 	
 	public void push(T data) {
-		stack.add(data);
+		stack.addFirst(data);
 		System.out.println("Stack Pushed: " + data);
 		System.out.println(stack);
 	}
